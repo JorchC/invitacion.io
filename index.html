@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stile.css">
+    <title>Video de YouTube</title>
+    <style>
+        /* Estilos CSS para hacer el video responsive */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporción de aspecto 16:9 */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+            /* Estilos CSS para hacer la imagen responsive */
+            .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+        }
+
+    
+    </style>
+
+</head>
+<body>
+    <div class="css-slider-wrapper">
+  <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+  <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+  <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+  <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+  <div class="slider-pagination">
+    <label for="slider_1" class="page1"></label>
+    <label for="slider_2" class="page2"></label>
+    <label for="slider_3" class="page3"></label>
+    <label for="slider_4" class="page4"></label>
+  </div>
+  <div class="next control">
+    <label for="slider_1" class="numb1"><i class="fa fa-arrow-circle-right"></i></label>
+    <label for="slider_2" class="numb2"><i class="fa fa-arrow-circle-right"></i></label>
+    <label for="slider_3" class="numb3"><i class="fa fa-arrow-circle-right"></i></label>
+    <label for="slider_4" class="numb4"><i class="fa fa-arrow-circle-right"></i></label>
+  </div>
+  <div class="previous control">
+    <label for="slider_1" class="numb1"><i class="fa fa-arrow-circle-left"></i></label>
+    <label for="slider_2" class="numb2"><i class="fa fa-arrow-circle-left"></i></label>
+    <label for="slider_3" class="numb3"><i class="fa fa-arrow-circle-left"></i></label>
+    <label for="slider_4" class="numb4"><i class="fa fa-arrow-circle-left"></i></label>
+  </div>
+  <div class="slider slide1">
+    <div class="container">
+        <p>NO TE RINDAS, <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+      </div>
+    <div>
+      <h2>INVITACION ESPECIAL</h2>
+      <h3>SÁBADO 9:00 HS</h3>
+      <a href="https://www.facebook.com/IASDpalermo/" class="button">Facebook</a>  <a href="https://www.google.com/maps/place/Iglesia+Adventista+del+S%C3%A9ptimo+D%C3%ADa+-+Palermo+(Chaco)/@-27.4673402,-58.9972692,18.04z/data=!4m15!1m8!3m7!1s0x94450c96e548171f:0x62e51912771a5acb!2sAv.+Edison+412,+H3500BQP+Resistencia,+Chaco!3b1!8m2!3d-27.4673965!4d-58.9973795!16s%2Fg%2F11flvvhfpq!3m5!1s0x94450d5920fce685:0xfe0ce820c2460619!8m2!3d-27.467315!4d-58.9972891!16s%2Fg%2F11gjp672j0?entry=ttu" class="button">Maps</a> </div>
+  </div>
+  <div class="slider slide2">
+      <div>
+      <img src="https://escritoesta.org/wp-content/uploads/2018/09/RCosta.png" alt="Imagen Responsiva" class="responsive-img">
+      <h2>Pastor Robert Costa</h2>
+      <H3>Director/Orador de Escrito Está</H3>
+      <p>Robert E. Costa ha servido como pastor, director departamental, y administrador de la Iglesia Adventista del Séptimo Día desde 1980 en Sudamérica y Norteamérica. Es el director y orador del programa televisivo Escrito Está, el cual es transmitido por más de 11.000 emisoras de radio y televisión en 138 países. Siendo su pasión compartir las buenas nuevas de la palabra de Dios, ha tenido el privilegio de conducir más de 300 campañas de evangelismo en los últimos quince años en todos los continentes.</p>
+      <a href="https://www.facebook.com/IASDpalermo/" class="button">Facebook</a> <a href="https://www.google.com/maps/place/Iglesia+Adventista+del+S%C3%A9ptimo+D%C3%ADa+-+Palermo+(Chaco)/@-27.4673402,-58.9972692,18.04z/data=!4m15!1m8!3m7!1s0x94450c96e548171f:0x62e51912771a5acb!2sAv.+Edison+412,+H3500BQP+Resistencia,+Chaco!3b1!8m2!3d-27.4673965!4d-58.9973795!16s%2Fg%2F11flvvhfpq!3m5!1s0x94450d5920fce685:0xfe0ce820c2460619!8m2!3d-27.467315!4d-58.9972891!16s%2Fg%2F11gjp672j0?entry=ttu" class="button">Maps</a> </div>
+  </div>
+  <div class="slider slide3">
+    <div>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/3KdYuSAwy30?start=8" frameborder="0" allowfullscreen></iframe>
+    </div>
+      <h2>NO TE RINDAS, hay una mejor manera de vivir</h2>
+      
+      <a href="https://www.facebook.com/IASDpalermo/" class="button">Facebook</a> <a href="https://www.google.com/maps/place/Iglesia+Adventista+del+S%C3%A9ptimo+D%C3%ADa+-+Palermo+(Chaco)/@-27.4673402,-58.9972692,18.04z/data=!4m15!1m8!3m7!1s0x94450c96e548171f:0x62e51912771a5acb!2sAv.+Edison+412,+H3500BQP+Resistencia,+Chaco!3b1!8m2!3d-27.4673965!4d-58.9973795!16s%2Fg%2F11flvvhfpq!3m5!1s0x94450d5920fce685:0xfe0ce820c2460619!8m2!3d-27.467315!4d-58.9972891!16s%2Fg%2F11gjp672j0?entry=ttu" class="button">Maps</a> </div>
+  </div>
+  <div class="slider slide4">
+    <div>
+      <div><img src="logoIASD.png"alt="Imagen Responsiva" class="responsive-img"></div>
+      <h1> IASD </h1>
+      <h2> Villa Palermo </h2>
+      <h3>SÁBADO 9:00 HS</h3>
+      <H3>Av. Edion 412</H3>
+      <p>Resistencia - Chaco</p>
+      <a href="https://www.facebook.com/IASDpalermo/" class="button">Facebook</a> <a href="https://www.google.com/maps/place/Iglesia+Adventista+del+S%C3%A9ptimo+D%C3%ADa+-+Palermo+(Chaco)/@-27.4673402,-58.9972692,18.04z/data=!4m15!1m8!3m7!1s0x94450c96e548171f:0x62e51912771a5acb!2sAv.+Edison+412,+H3500BQP+Resistencia,+Chaco!3b1!8m2!3d-27.4673965!4d-58.9973795!16s%2Fg%2F11flvvhfpq!3m5!1s0x94450d5920fce685:0xfe0ce820c2460619!8m2!3d-27.467315!4d-58.9972891!16s%2Fg%2F11gjp672j0?entry=ttu" class="button">Maps</a> </div>
+  </div>
+
+  
+  <script src="funcion.js"></script>
+      
+  
+</body>
+</html>
